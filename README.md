@@ -181,12 +181,12 @@ Computed once, on the test set only, in `src/evaluation.py`:
 Test set only, 376 trading days (2019-04-12 → 2020-09-10). Test-set price
 ranged $1,278–$2,069 (mean ≈ $1,604).
 
-| Model | MAE ($) | RMSE ($) | R² | MAPE (%) |
+| Model | MAE ($) | RMSE ($) | R² |
 |---|---:|---:|---:|---:|
-| **Naive (tomorrow = today)** | 13.43 | **19.88** | 0.9879 | 0.83 |
-| ARIMA(5,1,0) | 19.67 | 28.22 | 0.9756 | 1.21 |
-| XGBoost (tuned) | 28.15 | 50.69 | 0.9214 | 1.60 |
-| Random Forest (tuned) | 31.72 | 55.86 | 0.9045 | 1.80 |
+| **Naive (tomorrow = today)** | 13.43 | **19.88** | 0.9879 |
+| ARIMA(5,1,0) | 14.03	| 20.66 |	0.987 |
+| XGBoost (tuned) | 28.15 | 50.69 | 0.9214 |
+| Random Forest (tuned) | 31.72 | 55.86 | 0.9045 |
 
 Full precision in [`results/model_comparison.csv`](results/model_comparison.csv);
 per-day predictions in [`results/predictions.csv`](results/predictions.csv).
