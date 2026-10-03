@@ -182,7 +182,7 @@ Test set only, 376 trading days (2019-04-12 → 2020-09-10). Test-set price
 ranged $1,278–$2,069 (mean ≈ $1,604).
 
 | Model | MAE ($) | RMSE ($) | R² |
-|---|---:|---:|---:|---:|
+|---|---:|---:|---:|
 | **Naive (tomorrow = today)** | 13.43 | **19.88** | 0.9879 |
 | ARIMA(5,1,0) | 14.03	| 20.66 |	0.987 |
 | XGBoost (tuned) | 28.15 | 50.69 | 0.9214 |
